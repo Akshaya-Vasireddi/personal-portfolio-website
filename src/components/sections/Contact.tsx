@@ -87,7 +87,7 @@ export default function Contact() {
               </h3>
               <p className="text-text-secondary leading-relaxed">
                 Whether you have a project in mind, a job opportunity, or just want to say hello —
-                my inbox is always open. I'll do my best to get back to you within 24 hours!
+                my inbox is always open. I&apos;ll do my best to get back to you within 24 hours!
               </p>
             </div>
 
