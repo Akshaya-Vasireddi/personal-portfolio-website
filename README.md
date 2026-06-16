@@ -1,23 +1,81 @@
 # 🚀 Akshaya Vasireddi — Portfolio
 
----
 
-## ✨ Features
+Welcome to my personal portfolio website. This platform highlights my journey as a developer, showcasing the projects, technologies, and skills I have built through continuous learning and hands-on experience.
 
-- 🌌 **3D Hero** — Interactive particle field + floating wireframe orbs (React Three Fiber)
-- 🎭 **Smooth Animations** — Page-wide Framer Motion transitions and scroll reveals
-- 💎 **Glass morphism design** — Dark theme with cyan/purple gradient accents
-- 🔤 **Type animation** — Rotating titles in the hero section
-- 📊 **Animated stat counters** — CountUp on scroll
-- 🔍 **Project filtering** — Filter by category with animated transitions
-- 🏅 **Certificate gallery** — Modal preview with verify links
-- 🖱️ **Custom cursor** — Magnetic cursor for desktop
-- 📱 **Fully responsive** — Mobile, tablet, and desktop
-- ⚡ **Performance optimized** — Dynamic imports, lazy loading, dpr limiting
-- 🔎 **SEO optimized** — Full OpenGraph, Twitter cards, robots meta
-- ♿ **Accessible** — Semantic HTML, ARIA labels, keyboard navigable
+🔗 Live Portfolio:
+https://personal-portfolio-website-inky-six.vercel.app/
 
----
+👋 About Me
+
+I'm Akshaya Vasireddi, a passionate developer focused on building modern web applications and continuously expanding my knowledge in software development, data science, and problem-solving.
+
+I enjoy transforming ideas into functional, user-friendly applications while exploring new technologies and best practices.
+
+🚀 What You'll Find Here
+💻 Projects
+
+A collection of projects demonstrating my experience in:
+
+Full Stack Development
+Frontend Development
+Backend Development
+REST API Integration
+Authentication & Authorization
+Database Management
+🛠 Technical Skills
+
+Frontend
+
+HTML5
+CSS3
+JavaScript
+React.js
+
+Backend
+
+Node.js
+Express.js
+
+Database
+
+MongoDB
+SQL
+
+Tools & Platforms
+
+Git
+GitHub
+Vercel
+VS Code
+🎯 Goals
+Build scalable and impactful applications
+Strengthen Data Structures & Algorithms skills
+Explore Data Science and Machine Learning
+Contribute to real-world projects
+Grow as a Software Engineer
+📈 Continuous Learning
+
+Technology evolves every day, and I believe learning should never stop. I actively work on improving my development skills through projects, problem-solving, and exploring emerging technologies.
+
+🔗 Connect With Me
+Portfolio
+
+🌐 https://personal-portfolio-website-inky-six.vercel.app/
+
+GitHub
+
+🐙 https://github.com/Akshaya-Vasireddi
+
+⭐ Thanks for Visiting
+
+Thank you for taking the time to explore my portfolio.
+
+If you find my work interesting, feel free to connect, collaborate, or share feedback. Every project represents a step forward in my journey as a developer, and I'm excited about what comes next.
+
+Building. Learning. Improving. Every Day. 🚀
+
+This version looks professional, recruiter-friendly, and original rather than a typical AI-generated README full of badges and cliché
 
 ## 🗂️ Project Structure
 
@@ -57,65 +115,7 @@ portfolio/
 └── vercel.json
 ```
 
----
 
-## 🛠️ Quick Start
-
-### Prerequisites
-- Node.js 18.17+
-- npm or yarn
-
-### 1. Install dependencies
-
-```bash
-npm install
-```
-
-### 2. Customize your data
-
-Open `src/data/portfolio.ts` and update:
-
-```typescript
-export const portfolioData = {
-  personal: {
-    name: "Akshaya Vasireddi",       // ← Your name
-    email: "your@email.com",          // ← Your email
-    github: "https://github.com/...", // ← Your GitHub URL
-    linkedin: "https://linkedin.com/in/...", // ← Your LinkedIn
-    // ...
-  },
-  // Add your skills, projects, certificates, etc.
-}
-```
-
-
-### 3D Scene
-
-Edit `src/components/3d/HeroScene.tsx` to customize:
-- Particle count and distribution
-- Orb shapes and positions
-- Colors and opacity
-- Animation speeds
-
----
-
-## 📦 Tech Stack
-
-| Technology | Purpose |
-|-----------|---------|
-| Next.js 14 | Framework + SSR |
-| React 18 | UI library |
-| TypeScript | Type safety |
-| Three.js + R3F | 3D graphics |
-| @react-three/drei | R3F helpers |
-| Framer Motion | Animations |
-| Tailwind CSS | Styling |
-| react-type-animation | Typewriter effect |
-| react-countup | Animated counters |
-| react-hot-toast | Notifications |
-| react-intersection-observer | Scroll triggers |
-
----
 
 
 > Built with ❤️ by Akshaya Vasireddi
