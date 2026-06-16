@@ -9,6 +9,7 @@ export const viewport: Viewport = {
 }
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://akshayavasireddi.vercel.app'), // ← ADDED
   title: 'Akshaya Vasireddi — Software Developer Portfolio',
   description: 'Computer Science student and aspiring Software Developer. Building elegant, scalable solutions with React, Next.js, Python, and more. Explore my projects, skills, and journey.',
   keywords: ['Akshaya Vasireddi', 'Software Developer', 'Computer Science', 'Portfolio', 'React Developer', 'Full Stack Developer', 'Python Developer', 'Next.js', 'Web Developer India'],
