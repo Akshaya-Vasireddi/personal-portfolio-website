@@ -88,100 +88,6 @@ export const portfolioData = {
 }
 ```
 
-### 3. Add your assets
-
-Place these files in `/public`:
-
-| File | Purpose |
-|------|---------|
-| `resume.pdf` | Your resume (for download) |
-| `avatar.jpg` | Your profile photo |
-| `og-image.jpg` | 1200×630 social preview image |
-| `favicon.ico` | Browser tab icon |
-
-### 4. Connect the contact form
-
-The contact form is wired up but needs a backend. Choose one:
-
-**Option A — Formspree (easiest, free):**
-```typescript
-// In Contact.tsx, replace the handleSubmit function:
-const res = await fetch('https://formspree.io/f/YOUR_FORM_ID', {
-  method: 'POST',
-  headers: { 'Content-Type': 'application/json' },
-  body: JSON.stringify(form),
-})
-```
-
-**Option B — EmailJS:**
-```bash
-npm install @emailjs/browser
-```
-```typescript
-import emailjs from '@emailjs/browser'
-await emailjs.send('SERVICE_ID', 'TEMPLATE_ID', form, 'PUBLIC_KEY')
-```
-
-### 5. Run locally
-
-```bash
-npm run dev
-# → Open http://localhost:3000
-```
-
----
-
-## 🚀 Deploy to Vercel
-
-### Option 1 — Vercel CLI (recommended)
-
-```bash
-npm install -g vercel
-vercel login
-vercel --prod
-```
-
-### Option 2 — GitHub + Vercel Dashboard
-
-1. Push your code to a GitHub repo:
-   ```bash
-   git init
-   git add .
-   git commit -m "feat: portfolio v1"
-   git remote add origin https://github.com/yourusername/portfolio
-   git push -u origin main
-   ```
-
-2. Go to [vercel.com](https://vercel.com) → **New Project** → import your repo
-3. Framework: **Next.js** (auto-detected)
-4. Click **Deploy** — done! 🎉
-
-### Custom domain (optional)
-
-In Vercel dashboard → **Settings → Domains** → add your domain.
-
----
-
-## 🎨 Customization Guide
-
-### Colors
-
-Edit `tailwind.config.js`:
-```javascript
-colors: {
-  accent: {
-    cyan: '#00D4FF',      // ← Primary accent
-    purple: '#7C3AED',    // ← Secondary accent
-    pink: '#EC4899',      // ← Tertiary accent
-  }
-}
-```
-
-Also update `globals.css` CSS variables to match.
-
-### Fonts
-
-Edit `globals.css` — change the Google Fonts import and `--font-display` / `--font-body` variables.
 
 ### 3D Scene
 
@@ -211,10 +117,5 @@ Edit `src/components/3d/HeroScene.tsx` to customize:
 
 ---
 
-## 📄 License
-
-MIT — free to use for your own portfolio.
-
----
 
 > Built with ❤️ by Akshaya Vasireddi
