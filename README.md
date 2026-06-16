@@ -1,8 +1,4 @@
-# 🚀 Akshaya Vasireddi — 3D Portfolio
-
-A stunning, production-ready 3D portfolio built with **Next.js 14**, **Three.js (React Three Fiber)**, and **Framer Motion**. Dark, modern, and recruiter-ready.
-
-![Portfolio Preview](public/og-image.jpg)
+# 🚀 Akshaya Vasireddi — Portfolio
 
 ---
 
